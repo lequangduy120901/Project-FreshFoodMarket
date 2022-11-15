@@ -1,0 +1,105 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 5, 2022, 12:54:37 AM
+    Author     : Dinh Nam
+*/
+
+.content-container {
+    max-width: 1180px;
+    margin: 50px auto;
+    min-height: calc(100vh - 140px - 150px - 80px);
+}
+
+.update-time {
+    font-style: italic;
+}
+
+.content-infor {
+    width: 100%;
+    height: 330px;
+}
+
+
+.content-right {
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+.infor-table {
+    width: 100%;
+    height: calc(100%);
+    margin: 0px auto;
+    font-size: 22px;
+}
+
+.infor-table tr td:first-child {
+    width: 270px;
+    font-weight: bold;
+}
+
+.infor-table tr td input {
+    border: none;
+    border-bottom: dashed 1px #000;
+    width: 95%;
+    background-color: #fff;
+}
+
+.content textarea {
+    width: 100%;
+    min-height: 150px;
+    font-size: 23px;
+    background-color: #fff;
+}
+
+.button-ctn {
+    margin: 250px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-ctn button {
+    width: 100px;
+    padding: 5px;
+    border: solid 1px #2a8738;
+    border-radius: 5px;
+    background-color: #2a8738;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button-ctn button:hover {
+    color: #2a8738;
+    background-color: #fff;
+}
+
+.del {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    border: solid 1px red;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+}
+
+.del:hover {
+    color: red;
+    background-color: #fff;
+    border: solid 1px red;
+}
+
+.bigTitle {
+    float: left;
+    margin: 0;
+    color: #2a8738;
+    font-weight: bold;
+}
+
+.top {
+    height: 40px;
+}

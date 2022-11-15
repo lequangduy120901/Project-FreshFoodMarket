@@ -1,0 +1,143 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 7, 2022, 4:26:08 PM
+    Author     : Dinh Nam
+*/
+
+.slideContainer {
+    max-width: 1180px;
+    margin: 20px auto;
+    min-height: calc(100vh - 140px - 170px);
+}
+
+.slideImg {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bigImg {
+    height: 200px;
+    width: 95%;
+    border: solid 1px #000;
+    margin: 0 auto;
+}
+
+.infor {
+    width: 95%;
+    margin-left: 10px;
+    height: calc(100%);
+}
+
+.infor tr td:first-child {
+    width: 120px;
+    font-weight: bold;
+}
+
+.infor tr td input,
+.des,
+.note {
+    width: 100%;
+}
+
+.des {
+    height: 100px;
+}
+
+.note {
+    height: 100px;
+}
+
+.left {
+    float: left;
+    width: 45%;
+    height: 260px;
+    border-right: solid 3px #2a8738;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.right {
+    float: right;
+    width: calc(55% - 3px);
+    height: 260px;
+    font-size: large;
+}
+
+.infor tr td input,
+.infor tr td select {
+    height: 35px;
+}
+
+.infor tr td input {
+    border: none;
+    border-bottom: dashed 1px #000;
+    background-color: #ffffff;
+}
+
+#imgCont {
+    display: none;
+}
+
+.file-input {
+    margin: 10px auto;
+    width: 190px;
+}
+
+.content {
+    clear: both;
+    font-size: large;
+    padding-top: 20px;
+}
+
+.bottom {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.bottom button {
+    width: 100px;
+    padding: 5px;
+    border: solid 1px #2a8738;
+    border-radius: 5px;
+    background-color: #2a8738;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bottom button:hover {
+    color: #2a8738;
+    background-color: #fff;
+}
+
+.del {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    border: solid 1px red;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+}
+
+.del:hover {
+    color: red;
+    background-color: #fff;
+    border: solid 1px red;
+}
+
+.bigTitle {
+    float: left;
+    margin: 0;
+    color: #2a8738;
+    font-weight: bold;
+}
+
+.top {
+    height: 50px;
+}

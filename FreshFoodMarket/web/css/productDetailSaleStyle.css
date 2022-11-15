@@ -1,0 +1,134 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 5, 2022, 12:54:37 AM
+    Author     : Dinh Nam
+*/
+
+.content-container {
+    max-width: 1180px;
+    margin: 10px auto;
+    min-height: calc(100vh - 140px - 150px);
+}
+
+.update-time {
+    font-style: italic;
+}
+
+.proImg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.imgBorder {
+    width: 300px;
+    height: 300px;
+    border: solid 1px #000;
+    margin: 0 auto;
+}
+
+.content-infor {
+    width: 100%;
+    height: 330px;
+}
+
+.content-left {
+    float: left;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    border-right: solid 3px #2a8738;
+}
+
+#imgCont {
+    display: none;
+}
+
+.file-input {
+    margin: 5px auto;
+    width: 190px;
+}
+
+.content-right {
+    float: right;
+    width: calc(65% - 3px);
+    height: 100%;
+}
+
+.infor-table {
+    width: 87%;
+    height: calc(100%);
+    margin: 0px auto;
+    font-size: 22px;
+}
+
+.infor-table tr td:first-child {
+    width: 170px;
+    font-weight: bold;
+}
+
+.infor-table tr td input {
+    border: none;
+    border-bottom: dashed 1px #000;
+    width: 95%;
+    background-color: #fff;
+}
+
+.content-des textarea {
+    width: 100%;
+    min-height: 150px;
+    font-size: large;
+    background-color: #fff;
+}
+
+.button-ctn {
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-ctn button {
+    width: 100px;
+    padding: 5px;
+    border: solid 1px #2a8738;
+    border-radius: 5px;
+    background-color: #2a8738;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button-ctn button:hover {
+    color: #2a8738;
+    background-color: #fff;
+}
+
+.del {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    border: solid 1px red;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+}
+
+.del:hover {
+    color: red;
+    background-color: #fff;
+    border: solid 1px red;
+}
+
+.bigTitle {
+    float: left;
+    margin: 0;
+    color: #2a8738;
+    font-weight: bold;
+}
+
+.top {
+    height: 40px;
+}

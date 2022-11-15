@@ -1,0 +1,117 @@
+.slideImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.slideContainer {
+    max-width: 1180px;
+    min-height: calc(100vh - 140px - 170px);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.list-top-top button,
+.ltb-left button,
+.ltb-right button,
+.slideTable tr td button {
+    border: solid 1px #2a8738;
+    border-radius: 3px;
+    background-color: #2a8738;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+}
+
+.list-top-top button:hover,
+.ltb-left button:hover,
+.ltb-right button:hover,
+.slideTable tr td button:hover {
+    background-color: #fff;
+    color: #2a8738;
+}
+
+.slideTable {
+    width: 100%;
+}
+
+.list-top {
+    width: 100%;
+}
+
+.list-top-top h3 {
+    color: #2a8738;
+    font-weight: bold;
+}
+
+.list-top-bottom {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ltb-left {
+    float: left;
+}
+
+.ltb-right {
+    float: right;
+}
+
+.list-bottom {
+    margin-top: 20px;
+}
+
+.slideTable tr:first-child {
+    position: sticky;
+    top: 140px;
+}
+
+.slideTable tr:not(tr:first-child) {
+    height: 130px;
+}
+
+tr th {
+    height: 50px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+}
+
+tr td {
+    text-align: center;
+    font-weight: bold;
+}
+
+th:first-child {
+    width: 110px;
+}
+
+th:last-child {
+    width: fit-content;
+}
+
+tr td:first-child {
+    text-align: center;
+}
+
+td {
+    padding: 5px 5px 2px 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #cfcfcf;
+}
+
+tr:nth-child(even) {
+    background-color: #ecebeb;
+}
+
+.ltb-left form input,
+.ltb-right form select {
+    height: 30px;
+}
+
+.del {
+    float: right;
+}

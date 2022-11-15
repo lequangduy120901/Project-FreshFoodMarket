@@ -1,0 +1,203 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 29, 2022, 2:27:25 PM
+    Author     : Dinh Nam
+*/
+
+/* slider */
+
+.mySlides {
+    display: none;
+    position: relative;
+}
+
+.mySlides:hover {
+    text-decoration: none;
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+.mySlides {
+    height: 350px;
+    object-fit: cover;
+}
+
+.cropImgSlider {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slideText {
+    margin: -320px 30px;
+    padding: 15px;
+    background-color: rgba(107, 177, 128, 0.8);
+    border-radius: 15px;
+    max-width: 40%;
+    font-family: Calibri;
+    color: #fff;
+    position: relative;
+}
+
+.slideTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.slideContent {
+    font-size: 14px;
+}
+
+
+/* feature products */
+
+.feartureProduct {
+    max-width: 1180px;
+}
+
+.container a:hover {
+    text-decoration: none;
+}
+
+
+/* post slider */
+
+.postSlider {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.postTop {
+    margin: 20px;
+    padding: 20px;
+    color: #2c8738;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.slide-img {
+    height: 200px;
+    position: relative;
+}
+
+.slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.detail-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+}
+
+.type a {
+    color: #222222;
+    margin: 5px 0px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+}
+
+.type span {
+    color: rgba(26, 26, 26, 0.5);
+}
+
+.overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(151, 255, 177, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-btn {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: calibri;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.view-btn:hover {
+    color: #FFFFFF;
+    background-color: #2a8738;
+    transition: all ease 0.3s;
+}
+
+.overlay {
+    visibility: hidden;
+}
+
+.slide-img:hover .overlay {
+    visibility: visible;
+    animation: fade 0.5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.slider {
+    max-width: 1180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}

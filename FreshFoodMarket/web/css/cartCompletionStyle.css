@@ -1,0 +1,106 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 16, 2022, 12:48:58 AM
+    Author     : Dinh Nam
+*/
+
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+#input {
+    display: none;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+}
+
+.popUp {
+    height: 600px;
+    width: 800px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline;
+    margin: 0 auto;
+}
+
+.headerText h1 {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.mess {
+    height: 270px;
+    padding: 0 90px;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+.mess::-webkit-scrollbar {
+    display: none;
+}
+
+.mess p {
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.proTable {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.proTable tr {
+    border-bottom: solid 2px #000000;
+    background-color: rgb(250, 240, 240);
+}
+
+.proTable tr th {
+    color: #2a8738;
+}
+
+.proTable tr th,
+.proTable tr td {
+    padding: 3px;
+}
+
+.proTable tr td:nth-child(2) {
+    color: red;
+}
+
+.proTable tr td:last-child {
+    color: #16c531;
+}
+
+.directed-btn {
+    display: flex;
+    margin-top: 40px;
+}
+
+.directed-btn button {
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: #2a8738;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.directed-btn button:hover {
+    transform: scale(1.1);
+}
